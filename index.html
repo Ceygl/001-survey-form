@@ -22,7 +22,7 @@
       <div id="survey-form">
         <form action="">
           <div class="box">
-            <label for="name">Name</label>
+            <label for="name" class="labels" id="label-name">Name:</label>
             <input
               type="text"
               name="name"
@@ -31,7 +31,7 @@
             />
           </div>
           <div class="box">
-            <label for="age">Age</label>
+            <label for="age" class="labels">Age:</label>
             <input
               type="number"
               name="age"
@@ -40,7 +40,7 @@
             />
           </div>
           <div class="box">
-            <label for="email">E-mail</label>
+            <label for="email" class="labels">E-mail:</label>
             <input
               type="text"
               name="email"
@@ -50,7 +50,7 @@
             />
           </div>
           <div class="box">
-            <label for="content-type">Content type</label>
+            <label for="content-type" class="labels">Content type:</label>
             <select name="content" id="content-type">
               <option value="Series">Series</option>
               <option value="movies">Movies</option>
@@ -59,7 +59,7 @@
             </select>
           </div>
           <div class="box">
-            <p>Movie type:</p>
+            <p class="labels">Movie type:</p>
             <div class="checkbox">
               <input type="checkbox" name="comedy" id="comedy" value="comedy" />
               <label for="comedy">Comedy</label>
@@ -79,8 +79,9 @@
               <label for="romance">Romance</label>
             </div>
           </div>
+          <br>
           <div class="box">
-            <p>Gender</p>
+            <p class="labels">Gender:</p>
             <div class="radio">
               <input type="radio" name="gender" id="male" value="male" />
               <label for="male">Male</label>
@@ -95,7 +96,7 @@
             </div>
           </div>
           <div class="box">
-            <p>Feedback</p>
+            <p class="labels">Feedback:</p>
             <textarea
               name="comment"
               id="comment"

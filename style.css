@@ -4,13 +4,18 @@ body {
   background-size: cover;
 }
 #container {
-  background-color: rgba(216, 202, 202, 0.453);
-  width: 100%;
+  background-color: rgba(0, 0, 0, 0.29);
+  width: 83%;
+  height: 1000px;
+  left: 100px;
+  top: 30px;
+  margin: auto;
 }
 #first-div {
-    text-align: center;
+  text-align: center;
 }
-#title, span {
+#title,
+span {
   margin-bottom: 0px;
   font-size: 80px;
   text-transform: uppercase;
@@ -22,16 +27,16 @@ span {
   color: rgb(240, 42, 28);
 }
 #description {
-    margin-top: 0px;
+  margin-top: 0px;
   text-transform: capitalize;
   font-weight: 150;
   font-size: 24px;
 }
 #survey-form {
   width: 500px;
-  height: 100%;
+  height: 832px;
   margin: 0px auto;
-  background-color: rgba(0, 0, 0, 0.472);
+  background-color: rgba(0, 0, 0, 0.399);
   font-size: 1.1rem;
 }
 #survey-form form {
@@ -46,23 +51,28 @@ span {
   margin-top: 10px;
   width: 400px;
   height: 38px;
+  border-radius: 7px;
+}
+#comment{
+  border-radius: 7px;
 }
 .box {
-    display: inline-block;
-    margin: 10px 25px;
-    padding-top: 5px;
+  display: inline-block;
+  margin: 10px 25px;
+  padding-top: 5px;
 }
-.labels{
-    margin: 4px auto;
+.labels {
+  margin: 4px auto;
 }
-.checkbox, .radio{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 0px;
+.checkbox,
+.radio {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
 }
-.box p{
-    margin-top: 0px;
-    margin-bottom: 10px;
+.box p {
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 textarea {
@@ -77,9 +87,9 @@ textarea {
   width: 140px;
 }
 #submit {
-    height: 40px;
-    width: 140px;
-    color: white;
-    background-color: rgb(230, 11, 11);
-    border-radius: 30px;
+  height: 40px;
+  width: 140px;
+  color: white;
+  background-color: rgb(230, 11, 11);
+  border-radius: 30px;
 }
